@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.snsfamily"
+    android:targetSandboxVersion="2"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="28" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:icon="@drawable/sds_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.snsfamily.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.snsfamily.Head"
+            android:label="@string/title_activity_head"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.snsfamily.Member"
+            android:label="@string/title_activity_member"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.snsfamily.HeadDetail"
+            android:label="@string/title_activity_head_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.snsfamily.MemberDetail"
+            android:label="@string/title_activity_member_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.snsfamily.Mainpage"
+            android:label="@string/title_activity_mainpage"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.snsfamily.Mantra"
+            android:label="@string/title_activity_mantra"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.snsfamily.Feedback"
+            android:label="@string/title_activity_feedback"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service
+            android:name="com.snsfamily.PlayAudio"
+            android:enabled="true" >
+        </service>
+
+        <activity
+            android:name="com.snsfamily.Testing"
+            android:label="@string/title_activity_testing" >
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

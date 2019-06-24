@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SDS Family</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_head" translatable="false">All Head</string>
+    <string name="title_activity_member" translatable="false">All Members</string>
+    <string name="title_activity_head_details" translatable="false">Head Details</string>
+    <string name="title_activity_head_detail" translatable="false">Head Detail</string>
+    <string name="title_activity_member_detail" translatable="false">Member Detail</string>
+    <string name="shopping_cart" translatable="false">Table Number</string>
+    <string name="total_price" translatable="false">Total Price</string>
+    <string name="clear_order" translatable="false">Clear</string>
+    <string name="place_order" translatable="false">Order</string>
+    <string name="title_activity_mainpage" translatable="false">SDS FAMILY</string>
+    <string name="title_activity_mantra" translatable="false">Mantra</string>
+    <string name="title_activity_feedback" translatable="false">Request Detail</string>
+    <string name="title_activity_testing" translatable="false">Testing</string>
+
+</resources>

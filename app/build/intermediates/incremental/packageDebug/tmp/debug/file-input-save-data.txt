@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Mon Jun 17 17:07:26 IST 2019
+1.base=D\:\\Deepak\\Community\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+2.path=fonts/Saumil_guj2.ttf
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=D\:\\Deepak\\Community\\app\\build\\intermediates\\merged_assets\\debug\\out
+3.set=ASSET
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=fonts/Lohit-Gujarati.ttf
+count=4
+1.set=DEX
+0.path=fonts/guj.ttf
+3.base=D\:\\Deepak\\Community\\app\\build\\intermediates\\merged_assets\\debug\\out
+0.set=ASSET
+0.base=D\:\\Deepak\\Community\\app\\build\\intermediates\\merged_assets\\debug\\out
+2.baseType=DIRECTORY
+1.path=classes.dex

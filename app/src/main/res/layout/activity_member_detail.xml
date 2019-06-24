@@ -1,0 +1,383 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#F5F5F5"
+	tools:context="com.snsfamily.MemberDetail">
+
+	<TextView
+		android:id="@+id/txtmem_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="8dp"
+		android:text="Deepak Dinesh Daya"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="#1b75ba"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<View
+		android:id="@+id/view"
+		android:layout_width="0dp"
+		android:layout_height="2dp"
+		android:layout_below="@+id/txtmem_name"
+		android:layout_centerHorizontal="true"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="8dp"
+		android:background="#000000"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/txtmem_name" />
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/details"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/view"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="8dp"
+		android:background="#FFF"
+		android:orientation="vertical"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/view">
+
+		<TextView
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:text="Head Name:"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<TextView
+			android:id="@+id/txthead_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/textView2"
+			android:layout_alignParentLeft="true"
+			android:layout_marginStart="8dp"
+			android:text="Dinesh Bherulal Daya"
+			android:textColor="#1b75ba"
+			app:layout_constraintBottom_toBottomOf="@+id/textView2"
+			app:layout_constraintStart_toEndOf="@+id/textView2"
+			app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+		<TextView
+			android:id="@+id/textView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/txthead_name"
+			android:layout_alignParentLeft="true"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginBottom="8dp"
+			android:text="Relation:"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+		<TextView
+			android:id="@+id/txtrelation"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/textView1"
+			android:layout_alignParentLeft="true"
+			android:layout_marginStart="8dp"
+			android:text="Son"
+			android:textColor="#1b75ba"
+			app:layout_constraintBottom_toBottomOf="@+id/textView1"
+			app:layout_constraintStart_toEndOf="@+id/textView1"
+			app:layout_constraintTop_toTopOf="@+id/textView1" />
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/details1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/details"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="8dp"
+		android:background="#FFF"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/details">
+
+		<TextView
+			android:id="@+id/te"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:gravity="center_horizontal"
+			android:text="Detail Information"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textColor="#585858"
+			android:textStyle="bold"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<TextView
+			android:id="@+id/tex"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="8dp"
+			android:text="Profession"
+			android:textColor="#000000"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+		<TextView
+			android:id="@+id/txtbusiness"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="4dp"
+			android:text="Diamond"
+			android:textColor="#1b75ba"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/tex" />
+
+		<TextView
+			android:id="@+id/textView4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="8dp"
+			android:text="Qualification"
+			android:textColor="#000000"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+		<TextView
+			android:id="@+id/txtquali"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="4dp"
+			android:text="MCA"
+			android:textColor="#1b75ba"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+		<TextView
+			android:id="@+id/textView5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="8dp"
+			android:text="D.O.B / Age"
+			android:textColor="#000000"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/divider3" />
+
+		<TextView
+			android:id="@+id/txtBlood"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="16dp"
+			android:text="Blood Group"
+			android:textColor="#000000"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/divider3" />
+
+		<TextView
+			android:id="@+id/txtage"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="4dp"
+			android:text="03-10-1991"
+			android:textColor="#1b75ba"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+		<TextView
+			android:id="@+id/txtBloodGroup"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="4dp"
+			android:layout_marginEnd="16dp"
+			android:layout_marginBottom="8dp"
+			android:text="A+"
+			android:textColor="#1b75ba"
+			app:layout_constraintBottom_toTopOf="@+id/divider5"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/txtBlood" />
+
+		<TextView
+			android:id="@+id/textView6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="8dp"
+			android:text="Marital Status"
+			android:textColor="#000000"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/divider5" />
+
+		<TextView
+			android:id="@+id/textView10"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="8dp"
+			android:text="Email Id"
+			android:textColor="#000000"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/divider9" />
+
+		<TextView
+			android:id="@+id/txtmar_stat"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="4dp"
+			android:text="UnMarried"
+			android:textColor="#1b75ba"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+		<TextView
+			android:id="@+id/txtemail_id"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="4dp"
+			android:text="dpkd@gmail.com"
+			android:textColor="#1b75ba"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+		<TextView
+			android:id="@+id/textView7"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="8dp"
+			android:text="Mobile Number"
+			android:textColor="#000000"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/divider4" />
+
+		<TextView
+			android:id="@+id/txtmobile"
+			android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="4dp"
+			android:layout_marginBottom="8dp"
+			android:text="9727843888"
+			android:textColor="#1b75ba"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+		<ImageButton
+			android:id="@+id/imgbtnmsg"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="4dp"
+			android:layout_marginBottom="8dp"
+			android:background="@null"
+			android:src="@drawable/ic_message"
+			app:layout_constraintBottom_toBottomOf="@+id/txtmobile"
+			app:layout_constraintStart_toEndOf="@+id/txtmobile"
+			app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+		<View
+			android:id="@+id/divider"
+			android:layout_width="0dp"
+			android:layout_height="1dp"
+			android:layout_marginTop="8dp"
+			android:background="?android:attr/listDivider"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/te" />
+
+		<View
+			android:id="@+id/divider2"
+			android:layout_width="0dp"
+			android:layout_height="1dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:background="?android:attr/listDivider"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/txtbusiness" />
+
+		<View
+			android:id="@+id/divider3"
+			android:layout_width="0dp"
+			android:layout_height="1dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:background="?android:attr/listDivider"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/txtquali" />
+
+		<View
+			android:id="@+id/divider4"
+			android:layout_width="0dp"
+			android:layout_height="1dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:background="?android:attr/listDivider"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/txtemail_id" />
+
+		<View
+			android:id="@+id/divider5"
+			android:layout_width="0dp"
+			android:layout_height="1dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:background="?android:attr/listDivider"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/txtage" />
+
+		<View
+			android:id="@+id/divider9"
+			android:layout_width="0dp"
+			android:layout_height="1dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:background="?android:attr/listDivider"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/txtmar_stat" />
+
+	</android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
+
+
+
