@@ -89,14 +89,14 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\pc 10\.gra
 	android:label
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:21:9-41
 	android:icon
-		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:20:9-42
+		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:20:9-43
 	android:allowBackup
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:19:9-35
 	android:theme
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:22:9-40
 	android:usesCleartextTraffic
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:23:9-44
-activity#com.snsfamily.MainActivity
+activity#com.sdsfamily.MainActivity
 ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:25:9-29:20
 	android:screenOrientation
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:28:13-49
@@ -104,7 +104,7 @@ ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:25:9-29:20
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:27:13-45
 	android:name
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:26:13-54
-activity#com.snsfamily.Head
+activity#com.sdsfamily.Head
 ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:31:9-35:20
 	android:screenOrientation
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:34:13-49
@@ -112,7 +112,7 @@ ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:31:9-35:20
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:33:13-56
 	android:name
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:32:13-46
-activity#com.snsfamily.Member
+activity#com.sdsfamily.Member
 ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:37:9-41:20
 	android:screenOrientation
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:40:13-49
@@ -120,7 +120,7 @@ ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:37:9-41:20
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:39:13-58
 	android:name
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:38:13-48
-activity#com.snsfamily.HeadDetail
+activity#com.sdsfamily.HeadDetail
 ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:43:9-47:20
 	android:screenOrientation
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:46:13-49
@@ -128,7 +128,7 @@ ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:43:9-47:20
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:45:13-63
 	android:name
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:44:13-52
-activity#com.snsfamily.MemberDetail
+activity#com.sdsfamily.MemberDetail
 ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:48:9-52:20
 	android:screenOrientation
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:51:13-49
@@ -136,7 +136,7 @@ ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:48:9-52:20
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:50:13-65
 	android:name
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:49:13-54
-activity#com.snsfamily.Mainpage
+activity#com.sdsfamily.Mainpage
 ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:53:9-62:20
 	android:screenOrientation
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:56:13-49
@@ -154,7 +154,7 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:60:17-77
 	android:name
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:60:27-74
-activity#com.snsfamily.Mantra
+activity#com.sdsfamily.Mantra
 ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:63:9-67:20
 	android:screenOrientation
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:66:13-49
@@ -162,7 +162,7 @@ ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:63:9-67:20
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:65:13-58
 	android:name
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:64:13-48
-activity#com.snsfamily.Feedback
+activity#com.sdsfamily.Feedback
 ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:68:9-72:20
 	android:screenOrientation
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:71:13-49
@@ -170,13 +170,13 @@ ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:68:9-72:20
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:70:13-60
 	android:name
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:69:13-50
-service#com.snsfamily.PlayAudio
+service#com.sdsfamily.PlayAudio
 ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:74:9-77:19
 	android:enabled
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:76:13-35
 	android:name
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:75:13-51
-activity#com.snsfamily.Testing
+activity#com.sdsfamily.Testing
 ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:79:9-82:20
 	android:label
 		ADDED from D:\Deepak\Community\app\src\main\AndroidManifest.xml:81:13-59

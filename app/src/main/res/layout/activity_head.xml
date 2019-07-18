@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:background="#FFF"
     android:orientation="vertical"
-    tools:context="com.snsfamily.Head" >
+    tools:context="com.sdsfamily.Head" >
 
     <ListView
         android:id="@+id/listview_search"

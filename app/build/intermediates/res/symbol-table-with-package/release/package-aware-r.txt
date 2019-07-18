@@ -1,4 +1,4 @@
-com.snsfamily
+com.sdsfamily
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -642,6 +642,7 @@ drawable etpln
 drawable fail
 drawable head
 drawable ic_launcher
+drawable ic_launcher_background
 drawable ic_message
 drawable img
 drawable img1
@@ -956,6 +957,8 @@ menu mantra
 menu member
 menu member_detail
 menu testing
+mipmap ic_launcher
+mipmap ic_launcher_sds
 raw mantra
 string abc_action_bar_home_description
 string abc_action_bar_up_description

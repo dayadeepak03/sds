@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.snsfamily"
+    package="com.sdsfamily"
     android:targetSandboxVersion="2"
     android:versionCode="2"
     android:versionName="2.0" >
@@ -28,32 +28,32 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.snsfamily.MainActivity"
+            android:name="com.sdsfamily.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.snsfamily.Head"
+            android:name="com.sdsfamily.Head"
             android:label="@string/title_activity_head"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.snsfamily.Member"
+            android:name="com.sdsfamily.Member"
             android:label="@string/title_activity_member"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.snsfamily.HeadDetail"
+            android:name="com.sdsfamily.HeadDetail"
             android:label="@string/title_activity_head_detail"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.snsfamily.MemberDetail"
+            android:name="com.sdsfamily.MemberDetail"
             android:label="@string/title_activity_member_detail"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.snsfamily.Mainpage"
+            android:name="com.sdsfamily.Mainpage"
             android:label="@string/title_activity_mainpage"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -63,23 +63,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.snsfamily.Mantra"
+            android:name="com.sdsfamily.Mantra"
             android:label="@string/title_activity_mantra"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.snsfamily.Feedback"
+            android:name="com.sdsfamily.Feedback"
             android:label="@string/title_activity_feedback"
             android:screenOrientation="portrait" >
         </activity>
 
         <service
-            android:name="com.snsfamily.PlayAudio"
+            android:name="com.sdsfamily.PlayAudio"
             android:enabled="true" >
         </service>
 
         <activity
-            android:name="com.snsfamily.Testing"
+            android:name="com.sdsfamily.Testing"
             android:label="@string/title_activity_testing" >
         </activity>
 
